@@ -390,7 +390,8 @@ function saveExam() {
         part1: html1,
         part2: html2,
     }
-    let exams = [];
+    let exams = JSON.parse(localStorage.getItem('history_exams'));
+    if (exams === null) exams = [];
     exams.push(exam);
     localStorage.setItem('history_exams', JSON.stringify(exams));
 }
