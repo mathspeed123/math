@@ -325,9 +325,9 @@ function addEvent() {
 }
 
 // Gọi hàm sau khi hiển thị nội dung
+// resetUnits();
 displayUnits();
 addEvent();
-resetUnits();
 saveScrollPosition();
 addIdentity();
 
