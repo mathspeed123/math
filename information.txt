@@ -1,5 +1,5 @@
 email:
-address: nihaochinese362@gmail.com
+address: 
 password: nihaochinese
 
 github:
